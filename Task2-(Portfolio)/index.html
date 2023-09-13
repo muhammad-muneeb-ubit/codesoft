@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muneeb's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container" class="wholebody">
+      <div  class="container">
+        <div class="navbar">
+          <div id="logo">
+            <img
+              src="https://cdn.freebiesupply.com/logos/large/2x/m-logo-png-transparent.png"
+              alt="logo"
+            />
+          </div>
+          <div id="items">
+            <div class="nav"><a href="#head">HOME</a></div>
+            <div class="nav"><a href="#about">About</a></div>
+            <div class="nav"><a href="#skill">Skills</a></div>
+            <div class="nav"><a href="#hpro">Portfolio</a></div>
+            <div class="nav"><a href="#cv">CV</a></div>
+            <div class="nav"><a href="#contact">Contact</a></div>
+
+          </div>
+        </div>
+        <div id="head">
+          <img src="PICS/MUHAMMAD MUNEEB.png" alt="img" />
+        </div>
+        <div id="about">
+        <div id="about1"><p class="about1">About Me</p></div>
+          <div id="right"><img id="mypic" src="PICS/2.jpg" alt="my_pic" /></div>
+          <div id="left">
+            <p id="left2">Assalam-O-Alaikum!</p>
+            <p class="left3">
+              My name is Muhammad Muneeb, and I'm a talented frontend developer
+              who recently completed an intensive training course at SMIT. With
+              my passion for creativity and eye for design, I possess the skills
+              to create stunning and responsive websites that captivate visitors
+              and deliver an exceptional user experience.
+            </p>
+            <p class="left3" id="secpara">
+              My expertise in HTML, CSS, JavaScript, Bootstrap, and React allows
+              me to bring your vision to life, while ensuring your website is
+              not only aesthetically pleasing but also fully functional and
+              user-friendly. I pride myself on my ability to create seamless
+              designs that adapt to different devices, so your website will look
+              just as impressive on a desktop computer as it does on a
+              smartphone.
+            </p>
+          </div>
+        </div>
+        <div id="skill">
+          <p id="hskill">My Skills</p>
+          <div id="sk1" class="same w3-round-xlarge">
+            Html:
+            <div
+              class="w3-container w3-blue w3-round-xlarge w3-margin-left w3-margin-top w3-margin-bottom"
+              style="width: 42.5%"
+            >
+              85%
+            </div>
+          </div>
+          <div id="sk2" class="same w3-round-xlarge">
+            Css:
+            <div
+              class="w3-container w3-blue w3-round-xlarge w3-margin-left w3-margin-top w3-margin-bottom"
+              style="width: 40%"
+            >
+              80%
+            </div>
+          </div>
+          <div id="sk3" class="same w3-round-xlarge">
+            JavaScript:
+            <div
+              class="w3-container w3-blue w3-round-xlarge w3-margin-left w3-margin-top"
+              style="width: 25%"
+            >
+              50%
+            </div>
+          </div>
+        </div>
+        <p id="hpro">My Projects</p>
+        <div id="projects">
+          <div id="proj1" class="proj"><a href="https://landingpagebymohammadmuneeb.netlify.app" target="_blank"><img src="./PICS/pro1.png" alt=""> Landing Page-1</a></div>
+          <div id="proj2" class="proj"><a href="https://periodic-table-muneeb.netlify.app" target="_blank"><img src="./PICS/pro2.png" alt=""> Periodic Table</a></div>
+          <div id="proj3" class="proj"><a href="https://fullyfunctionalclock.netlify.app" target="_blank"><img src="./PICS/pro3.png" alt=""> Digital Clock</a></div>
+          <div id="proj4" class="proj"><a href="https://calculatorwithhtmlcssandjs.netlify.app" target="_blank"><img src="./PICS/pro4.png" alt=""> Calculator</a></div>
+          <div id="proj5" class="proj"><a href="https://mypracticewebsite.netlify.app" target="_blank"><img src="./PICS/pro5.png" alt=""> Landing Page-2</a></div>
+          <div id="proj6" class="proj"><a href="https://gallery-css.netlify.app" target="_blank"><img src="./PICS/pro6.png" alt=""> Gallery</a></div>
+        </div>
+        <div id="cv">
+          <div id="cvparas">
+            <p id="cvpara1">Hire Me For Your Project</p>
+            <p id="cvpara2">Here's my CV.</p>
+          </div>
+          <div id="cvbtn"><button class="cvbtn"><a href=" https://official-muhammad-muneeb.netlify.app/Resume.pdf" target="_blank"> Download CV</a></button></div>
+        </div>
+        <form id="contact" method="post" action="https://formspree.io/f/mgejyekz" >
+          <p id="cont">Get In Touch</p>
+          <p id="contp">Fill Free to Contact me. I am available 24/7.</p>
+          <input type="text" name="name" id="name" placeholder="Name" />
+          <input type="number" name="Phonenumber" id="email" placeholder="Phone Number" />
+          <input type="email" name="email" id="subject" placeholder="Email"/>
+          <input type="text" name="message" id="message" placeholder="Your Message..."/>
+          <input type="submit" id="sendmess" onclick="sendEmail()" value="Send Message">
+        </form>
+        <hr />
+        <div id="footer">
+          &copy; 2023 All Right Reserved. Design by
+          <span class="footer">MUHAMMAD MUNEEB</span>
+        </div>
+        <div id="backtostart">
+          <a href="#container"><i id="arrow" class="ri-arrow-up-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Cxv55f9_PNLOchCCX");
+   })();
+</script>
+<script src="index.js"></script>
+  </body>
+</html>

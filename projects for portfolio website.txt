@@ -1,0 +1,8 @@
+projects for portfolio website
+0-  My Resume: https://official-muhammad-muneeb.netlify.app/Resume.pdf
+1-    https://website-layout-1.netlify.app (Website layout)
+2-    https://gallery-css.netlify.app (Gallery)
+3-    https://periodic-table-muneeb.netlify.app (Periodic Table)
+4-    https://calculatorwithhtmlcssandjs.netlify.app (Calculator)
+5-    https://landingpagebymohammadmuneeb.netlify.app (Landing Page)
+6-    https://mypracticewebsite.netlify.app (Practice Website)
